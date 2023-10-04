@@ -12,12 +12,11 @@
 }
 
 .content__cover {
-  border: 1px solid yellow;
-  margin-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .content__cover > img {
-  border: 2px solid green;
   border-radius: 5px;
   width: 300;
   min-width: 300;
@@ -30,6 +29,10 @@
 
 .content__description >p {
   margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
   color: lightgray;
+  text-align: justify;
 }
 

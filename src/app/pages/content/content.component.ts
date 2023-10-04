@@ -8,9 +8,9 @@ import {dataFake} from '../../data/dataFake';
   styleUrls: ['./content.component.css']
 })
 export class ContentComponent implements OnInit {
-  photoCover:string = "https://www.adrenaline.com.br/wp-content/plugins/seox-image-magick/imagick_convert.php?width=1200&height=545&format=webp&quality=91&imagick=/wp-content/uploads/2023/03/NVIDIA_usar_plantas_Intel_produzir_GPUs_futuro.jpg"
+  photoCover:string = ""
   contentTitle:string = ""
-  contentDescription:string= "qqqqqqqq"
+  contentDescription:string= ""
   private id:string | null = "0"
 
   constructor(
