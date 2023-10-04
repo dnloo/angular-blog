@@ -8,9 +8,14 @@ import { Component, Input, OnInit } from '@angular/core';
 export class SmallCardComponent implements OnInit {
   @Input ()
   photoCover:string = ""
+
   @Input ()
   cardTitle:string = ""
   constructor() { }
+
+  @Input ()
+  Id:string="0"
+
 
   ngOnInit(): void {
   }
